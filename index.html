@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil UN-CHK</title>
+    <!--<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">   
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+
+</head>
+<body>
+    <header>
+
+        <nav class="navbar">
+
+            <!-- Le LOGO d'UNCHK-->
+            <a href="#" class="logo-unchk">
+ 
+                <img src="images/logoUNCHK.png" alt="" class="logo-img">
+
+            </a>
+
+            <!-- Le bouton pour appareils le MENU sur les mobiles -->
+
+            <button class="monbouton1" id="btn">
+                
+                <div class="icone-btn1">
+
+                    <span class="material-symbols-outlined">menu</span>
+
+                </div>
+            
+            </button>
+
+            <!-- premier ul on retrouve le premier meunu qui contient des sous-menus -->
+            <ul class="menuPrincipal" id="menuss1">
+
+                <li><a href="#" class="active-page">Accueil</a></li>
+
+                <li class="menu1">
+
+                    <a href="#">Institution</a>
+                      
+                    <!--Sous-menu 1 dans Menu numero 1-->
+                    <ul class="sousmenu special">
+
+                        <li><a href="#">Mot du Recteur</a></li>
+                        <li><a href="#">Presentation</a></li>
+                        <li><a href="#">Gouvernance</a></li>
+                        <li><a href="#">Organigramme</a></li>
+                        <li><a href="#">L'Universié en chiffres</a></li>
+                        <li><a href="#">Directions & Pôles</a></li>
+
+                    </ul>
+                    
+                </li>
+                
+                <li class="menu1"><a href="#">Formations</a>
+                 
+                    <!--Sous-menu 2 dans Menu numero 1-->
+                    <ul class="sousmenu">
+
+                        <li><a href="#">Formation initiale</a></li>
+                        <li><a href="#">Formation continue</a></li>
+                        <li><a href="#">Modele pedagogique</a></li>
+                        <li><a href="#">Admission</a></li>
+
+                    </ul>
+                    
+                
+                </li>
+                
+                <li>
+
+                    <a href="#">Actualités</a>
+                
+                </li>
+                
+                <li class="menu1">
+                    
+                    <a href="#">Recherche</a>
+
+                    <ul class="sousmenu">
+
+                    <!--Sous-menu 3 dans Menu numero 1-->
+                        <li><a href="#">Pôle innovation et Expertise pour le Developpement (PIED)</a></li>
+                        <li><a href="#">Chercheurs</a></li>
+                        <li><a href="#">Ecole Doctorale (ED)</a></li>
+                        <li><a href="#">Ressources Numeriques</a></li>
+
+                    </ul>
+                
+                </li>
+                
+                <li class="menu1">
+                    
+                    <a href="#">Vie Étudianté</a>
+
+                    <!--Sous-menu 4 dans Menu numero 1-->
+                    <ul class="sousmenu">
+
+                        <li><a href="#">Reresentation estudiantine</a></li>
+                        <li><a href="#">Resentation des BENO, CRENO, FNE-UN</a></li>
+                        <li><a href="#">Vie associative</a></li>
+                        <li><a href="#">MSE-UNCHK</a></li>
+                        <li><a href="#">ASC ENO</a></li>
+
+                    </ul>
+                
+                </li>
+                
+                <li class="menu1">
+                    
+                    <a href="#">Service À la Communauté</a>
+
+                    <!--Sous-menu 5 dans Menu numero 1-->
+                    <ul class="sousmenu">
+
+                        <li><a href="#">S.A.C propose par les acteurs internes</a></li>
+                        <li><a href="#">S.A.C integre dans les curricula</a></li>
+                        <li><a href="#">S.A.C propose par les communautes</a></li>
+    
+                    </ul>
+                
+                </li>
+               
+                <li>
+
+                    <a href="#">Contact</a>
+                
+                </li>
+    
+            </ul>
+
+
+
+            <!-- Ce deuxieme boutton sert afficher le contenu icone menu au click qui ce trouve dans une div 
+            en dessous du bouton-->
+            <div class="actionBouton">
+
+                <button class="monbouton2" id="btn2">
+                
+                    <span>MENU</span>
+                
+                    <!--<div class="icone-btn2"></div>-->
+                    <div class="icone-btn2">
+                  
+                        <span class="material-symbols-outlined">sort</span>
+            
+
+                    </div>
+
+                    <!--<div class="material-symbols-outlined"></div>-->
+
+                </button>
+
+                <!--Bouton de recherche-->
+
+                <button class="btn-search">
+            
+                    <span class="material-symbols-outlined">search</span>
+
+                </button>
+
+            </div>    
+
+
+        
+        </nav>
+
+
+        <div class="menus-icones" id="menuss2">
+
+            <div class="icon">
+
+                <div class="menu2">
+
+                    <h3>Espace numerique Ouvert</h3>
+
+                    <ul class="sousmenu2">
+                        <li><a href="#">Présentation</a></li>
+                        <li><a href="#">Catographie</a></li>
+                    </ul>
+                
+                </div>
+
+                <div class="menu2">
+
+                    <h3>Communication</h3>
+
+                    <ul class="sousmenu2">
+                        <li><a href="#">Charte graphique</a></li>
+                        <li><a href="#">Contact presse</a></li>
+                        <li><a href="#">Espace presse</a></li>
+                        <li><a href="#">Plaquettes et guides</a></li>
+                        <li><a href="#">Médiathèque</a></li>
+                        <li><a href="#">Documents officiels</a></li>
+                    </ul>
+                
+                </div>
+
+                <div class="menu2 couleur-orange">
+
+                    <h3>Plateformes</h3>
+
+                    <ul class="sousmenu2">
+                        <li><a href="#">Portail ENT</a></li>
+                        <li><a href="#">Formation</a></li>
+                        <li><a href="#">Admission</a></li>
+                        <li><a href="#">Recrutement</a></li>
+                        <li><a href="#">Cursus</a></li>
+                        <li><a href="#">Préinscription</a></li>
+                        <li><a href="#">Application MyUN-CHK</a></li>
+                    </ul>
+                
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+        <!--Bouton de recherche-->
+        
+        
+        <div class="search">
+
+            <div class="recherche">
+
+                <input type="text" class="input-search" placeholder="Rechercher...">
+
+                <span class="material-symbols-outlined searchIcone2">search</span>
+
+            </div>    
+
+        </div>
+
+    </header>
+
+
+   <!--Mes slide images-->
+
+    <section class="section-slides">
+
+        <div class="container">
+
+
+            
+
+            <div class="slide-images">
+
+                <div class="slide-img"><img src="images/image1.jpg" alt="slide-1"></div>
+                <div class="slide-img"><img src="images/image2.jpg" alt="slide-2"></div>
+                <div class="slide-img"><img src="images/photo1.jpg" alt="slide-3"></div>
+                <div class="slide-img"><img src="images/image4.jpg" alt="slide-4"></div>
+                <div class="slide-img"><img src="images/image5.jpg" alt="slide-5"></div>
+                <div class="slide-img"><img src="images/image6.jpg" alt="slide-6"></div>
+                <div class="slide-img"><img src="images/photo2.jpg" alt="slide-7"></div>
+                <div class="slide-img"><img src="images/image8.jpg" alt="slide-8"></div>
+
+            </div>
+
+
+
+
+            <!--les boutons aller retour pour mes slides images-->
+            <button class="slide-bouton gauche">
+                    
+                <span class="material-symbols-outlined">chevron_left</span>
+
+            </button>
+
+
+            <button class="slide-bouton droite">
+                    
+                <span class="material-symbols-outlined">chevron_right</span>
+
+            </button>
+
+            
+
+
+        </div>
+
+    </section>
+
+
+    <!--Mon Deuxieme section-->
+
+    <section class="section2">
+
+          
+        <div class="orangeBleuSection sectionOrange">
+
+            <div class="iconeOrangeBleu">
+
+                <span class="material-symbols-outlined">menu_book</span>
+            
+            </div>
+
+            <div class="iconeOrangeBleu-text">NOS FORMATIONS</div>
+           
+            <div class="iconeOrangeBleu2">
+
+                <span class="material-symbols-outlined" style="color: #000;">arrow_forward</span>
+
+            </div>
+
+
+        </div>
+
+
+        <div class="orangeBleuSection sectionBleu">
+
+            <div class="iconeOrangeBleu">
+
+                <span class="material-symbols-outlined">folder_open</span>
+            
+            </div>
+
+            <div class="iconeOrangeBleu-text">ADMISSON</div>
+
+            <div class="iconeOrangeBleu2">
+
+                <span class="material-symbols-outlined">arrow_forward</span>
+
+            </div>
+
+
+        </div>
+
+
+
+    </section>
+
+
+
+    <section class="section3">
+
+        <div class="section3-contenu">
+            <span>Vision</span>
+        </div>
+
+        <div class="section3-contenu">
+            <span>Valeurs</span>
+        </div>
+
+        <div class="section3-contenu">
+            <span>Axes Stratégiques</span>
+        </div>
+
+
+
+    </section>
+
+
+    <!--Le 4eme Section-->
+
+    <section class="section4">
+
+        <h2 class="titre-section4">ACTUALITÉS</h2>
+
+        <div class="section4-contenu">
+
+            <div class="articles-gauche">
+                <!--article 1-->
+                <article class="article1">
+
+                    <div class="image-article1">
+                        <img src="images/image9.png" alt="CHKANE">
+                    </div>
+
+                    <div class="text-article1">
+                        <span class="date">4 octobre 2026</span>
+                        <h3>Rappel à Dieu de M. Cheikh Hamidou KANE, parrain de l'UN-CHK</h3>
+                        <p>L’Université numérique Cheikh Hamidou Kane (UN-CHK) a appris avec une profonde afflection le rappel à Dieu de son illustre parrain, Monsieur Cheikh Hamidou</p>
+                        <a href="#" class="lire">Lire la suite &rarr;</a>
+                    </div>
+
+                </article>
+
+                <!--Article 2-->
+                <article class="article2">
+                    <div class="image-article2">
+                        <img src="images/image10.jpeg" alt="Samuel">
+                    </div>
+                    <div class="text-article2">
+                        <span class="date">2 octobre 2026</span>
+                        <h3>Pr Samuel OUYA, nommé président de la commission « Innovations pédagogiques, Transition numérique et IA » de la C2R</h3>
+                        <p>Le Professeur Samuel OUYA, Recteur de l’Université numérique Cheikh Hamidou Kane (UN-CHK), a été nommé à la présidence de la Commission Innovations</p>
+                        <a href="#" class="lire">Lire la suite &rarr;</a>
+                    </div>
+
+
+                
+                </article>
+
+            </div>
+            
+
+
+            <!-- Mes Communiqués-->
+            <div class="mesCommuniques">
+                <div class="titre-communiques">
+                    <span class="material-symbols-outlined">newspaper</span>
+                    <h2>COMMUNIQUÉS</h2>
+                </div>
+
+                <!--1-->
+                <div class="communique-text">
+                    <a href="#">Lancement de la deuxième phase de distribution des kits de connectivité à l'intention des étudiants de la Promotion 13</a>
+                    <span class="communique-date">16 octobre 2026</span>
+                </div>
+
+                <!--2-->
+                <div class="communique-text">
+                    <a href="#">Lancement officiel du premier rapport national sur l'IA générative dans l'enseignement supérieur sénégalais par le groupe recherche ALIVE</a>
+                    <span class="communique-date">14 octobre 2026</span>
+                </div>
+
+                <!--3-->
+                <div class="communique-text">
+                    <a href="#">Prolongation–appel à candidatures pour une admission au Master international &laquo;Métiers de l'Édition Scientifique &raquo;(MEDITS)</a>
+                    <span class="communique-date">1 octobre 2026</span>
+                </div>
+
+
+                <!--4-->
+                <div class="communique-text">
+                    <a href="#">Prolongation exceptionnelle des phases 1 & 2 des appels à candidatures pour le recrutement d'auditeurs en formation continue au titre de l'année académique 2025/2026</a>
+                    <span class="communique-date">30 septembre 2026</span>
+                </div>
+
+                <div class="bouton-articles">
+                    <a href="#" class="btn-articles">Plus communiqués</a>
+                </div>
+
+
+            </div>
+
+
+
+            
+
+        
+        </div>
+
+
+        <div class="conteneur-btn-plus-articles">
+            <a href="#" class="btn-articles">Plus d'articles</a>
+        </div>
+
+        
+
+    </section>
+
+
+
+
+    <!--Ma section 5-->
+    <section class="section5">
+
+        <h2 class="section5-titre">UN-CHK EN CHIFFRES</h2>
+
+        
+        <div class="grille-chiffres-3-colonnes">
+
+            
+            <div class="colone-chiffre">
+                <div class="contenuEnCouleur vert">
+                    <span class="nombre">1ère</span>
+                    <p class="label5">UNIVERSITÉ PUBLIQUE NUMÉRIQUE</p>
+                </div>
+                <div class="img-section5 img-vert">
+                    <img src="images/image11.jpg" alt="Étudiant1">
+                </div>
+            </div>    
+
+            
+            <div class="colone-chiffre">
+                <div class="contenuEnCouleur jaune">
+                    <span class="nombre">19</span>
+                    <p class="label5">LICENCES</p>
+                </div>
+                <div class="img-section5 img-jaune">
+                    <img src="images/image12.jpg" alt="Étudiant2">
+                </div>
+            </div>    
+
+            
+            <div class="colone-chiffre">
+                <div class="contenuEnCouleur bleu">
+                    <span class="nombre">26</span>
+                    <p class="label5">MASTERS</p>
+                </div>
+                <div class="img-section5 img-bleu">
+                    <img src="images/image13.jpg" alt="Étudiant3">
+                </div>
+            </div>    
+
+        </div>
+
+        <div class="chiffres">
+
+            <div class="nosChiffres">
+                <h3>73 797</h3>
+                <p>ÉTUDIANTS</p>
+            </div>
+
+            <div class="nosChiffres">
+                <h3>425</h3>
+                <p>PATS</p>
+            </div>
+
+            <div class="nosChiffres">
+                <h3>536</h3>
+                <p>ENSEIGNANTS ASSOCIÉS</p>
+            </div>
+
+            <div class="nosChiffres">
+                <h3>638</h3>
+                <p>TUTEURS</p>
+            </div>
+
+        </div>
+        
+        <div class="plusDeChiffres chiffre">
+            <a href="#" class="lien-chiffres">Plus de chiffres</a>
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+    <!--Section 6-->
+    <section class="vie-etudiante">
+        
+        <div class="etudiante etudiant-vert">
+            <div class="contentenu-etudiant-vert">
+                <h2>Vie<br>estudiantine</h2>
+                <a href="#" class="btn-linkEtudiant">En savoir plus</a>
+            </div>
+            <img src="images/imageModif.png" alt="etude1" class="etudiant-img" />
+        </div>
+
+        
+        <div class="etudiante2">
+            
+            <div class="etudiante etudiant-bleu">
+                <a href="#" class="link-bleu">Coupe du Recteur &rarr;</a>
+            </div>
+
+            
+            <div class="etudiante etudiant-jaune">
+                <p class="text-etudiantJaune">
+                    Nos étudiants créent une communauté dynamique et inclusive
+                </p>
+            </div>
+        </div>
+
+        
+        <div class="etudiante etudiant-image">
+            <img src="images/image15.jpg" alt="etude2" />
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--Le footer-->
+    <footer class="contact" id="contact">
+
+        <div class="footer1">
+
+            <div class="contact-reseaux">
+
+                <h4>A PROPOS DE L'UN-CHK</h4>
+
+                <li><a href="#">Présentation</a></li>
+                <li><a href="#">Gouvernance</a></li>
+                <li><a href="#">Organigramme</a></li>
+                <li><a href="#">Directions et Pôles</a></li>
+           
+
+            </div>
+
+
+            <div class="contact-reseaux">
+
+                <h4>NOS FORMATIONS</h4>
+
+                <li><a href="#">Formation initiale</a></li>
+                <li><a href="#">Formation continue</a></li>
+
+            </div>
+
+
+            <div class="contact-reseaux">
+
+                <h4>LIENS UTILES</h4>
+
+                <li><a href="#">MESRI</a></li>
+                <li><a href="#">ANSTS</a></li>
+                <li><a href="#">CAMES</a></li>
+                <li><a href="#">ANAQ</a></li>
+
+            </div>
+
+
+            <div class="contact-reseaux">
+
+                <h4>CONTACT</h4>
+
+                <li><a href="#">Cité du savoir-Diamniadio,Castors,<br/> 
+                    avenue Bourguiba, rue N<sup>o</sup>13</a>
+                    <span style="font-size: 14px; font-weight: bold;">+221 30 108 41 53-contact@unchk.edu.sn</span>
+                </li>
+                
+
+            </div>
+
+
+
+        </div>    
+
+
+        
+
+
+        <div class="social">
+                
+            <div class="social1">
+                <a href="#"><i class="bx bxl-facebook"></i></a>
+                <a href="#"><i class="bx bxl-instagram-alt"></i></a>
+                <a href="#"><i class="bx bxl-twitter"></i></a>
+                <a href="#"><i class="bx bxl-youtube"></i></a>
+                <a href="#"><i class="bx bxl-linkedin"></i></a>
+            </div>    
+
+            <div class="social2">
+                <p>Foo Nekk Foofu La !</p>
+            </div>
+
+        </div>
+
+
+
+        <div class="card1-text">
+            <p>Copyright&copy 2025 UN-CHK. Tous les droits sont réservés.</p>
+        </div>
+
+
+
+    </footer>
+
+
+    <!--scroll-->
+    <a href="#" class="scroll-top"><i class="bx bx-chevron-up"></i></a>
+
+    <div class="mousemove"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>
